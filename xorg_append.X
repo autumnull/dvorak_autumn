@@ -28,7 +28,7 @@ xkb_symbols "dvorak_autumn" {
     key <AD02> {[ comma         , question      ]};
     key <AD03> {[ period        , exclam        ]};
     
-    key <AD11> {[ plus          , minus         ]};
+    key <AD11> {[ minus         , plus          ]};
     key <AD12> {[ braceleft     , braceright    ]};
     
     // Row 3
