@@ -1,6 +1,9 @@
 
 
 // Autumn's  mutli-purpose Dvorak!
+//
+// Append this file to /usr/share/X11/xkb/symbols/gb , like this:
+// cat xorg_append.X | sudo tee -a /usr/share/X11/xkb/symbols/gb
 
 partial alphanumeric_keys
 xkb_symbols "dvorak_autumn" {
