@@ -17,12 +17,13 @@ For the basis I chose Dvorak after looking into many keyboard layouts, simply be
 Taking the fact that the letters are Dvorak for granted, these are the things that are different:
 
 - The zero key is now at the start of the numbers, because counting from zero is better (computers or whatever). This also means it aligns with the negation symbol `¬`, and is the first key on the keyboard, which is neat.
-- The brackets are now paired up each on their own key. This is neater I think, and is nicer to use. They're arranged next to each other in order of increasing usage: `<>->[]->{}->()`
+- The brackets are now paired up each on their own key. This is neater I think, and is nicer to use. They're arranged next to each other in order of decreasing usage: `()`>`{}`>`<>`>`[]`
 - The `-` `+` symbols are now on the same key. `-` is primary because it's also a dash, so it's more commonly used.
 - The `=` `_` symbols are very accessible, since they come up in programming very frequently. They're paired because they look sorta similar.
 - `*` `&` are now on the same key and more accessible, because they are opposites in C programming.
 - The punctuation `'"?!,.` is generally grouped together and more accessible. The quote characters are now on the same key, and then the `?` `!` symbols are paired with `,` `.` respectively, because it feels right. The `` ` `` is also just above the other quote-like characters.
 - The two slash characters `/` `\` are now on the same key (so are `;` `:` but that's actually the same as normal).
+- The `AltGr` key, instead of being short for "Alt Graph", is now short for "Alt Greek" (binds AltGr to `dead_greek` on X11 keyboard, so pressing `AltGr` followed by any letter will give the closest greek equivalent. Useful for math.)
 - Finally, the remaining special characters are arranged on the top row so that the ones I use less frequently are harder to reach. This specific arrangement is based primarily on markdown, shell script, python, C/C++, and then just general programming. There's also a slight grouping of operators toward the right, and shell things to the left. The `£` gets the worst spot because fuck britain and money.
 
 ## Can I use it ?

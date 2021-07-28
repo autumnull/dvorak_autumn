@@ -40,4 +40,7 @@ xkb_symbols "dvorak_autumn" {
     
     // Row 4
     key <LSGT> {[ slash         , backslash     ]};
+    
+    // Row 5
+    key <RALT> {[ dead_greek ]};
 };
